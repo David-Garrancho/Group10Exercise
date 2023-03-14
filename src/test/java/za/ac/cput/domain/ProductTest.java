@@ -13,9 +13,10 @@ class ProductTest {
 
 
 
-    Product p = new Product("T123", "Toilet", "Bathroom Essentials");
+    Product p = new Product("T123", "Window", "Buiilding Mats");
     Product p2 = new Product("T142", "Shower", "Hygiene Essentials");
     Product p3 = new Product("T123", "Toilet", "Bathroom Essentials");
+    Product p4 = new Product("T453", "Door", "House Mats");
 
     @Test
     @Disabled("Disabled by David")
