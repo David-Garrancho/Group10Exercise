@@ -10,6 +10,24 @@ public class Product {
     public Product() {
     }
 
+    public Product(String prodCode, String prodName, String prodType) {
+        this.prodCode = prodCode;
+        this.prodName = prodName;
+        this.prodType = prodType;
+    }
+
+    public void setProdCode(String prodCode) {
+        this.prodCode = prodCode;
+    }
+
+    public void setProdName(String prodName) {
+        this.prodName = prodName;
+    }
+
+    public void setProdType(String prodType) {
+        this.prodType = prodType;
+    }
+
     public String getProdCode() {
         return prodCode;
     }
